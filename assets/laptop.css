@@ -1,0 +1,158 @@
+@media all and (min-width: 1025px)
+{
+    /* paramètres global */
+    * 
+    {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    body
+    {
+        background-color: rgb(202, 202, 202);
+    }
+    .blocpage
+    {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        margin: auto;
+        background-color: white;
+    }
+    .menu-bouton, .hr2
+    {
+        display: none;
+    }
+
+    /* paramètres headers */
+    header
+    {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin: auto;
+        margin-bottom: 2rem;
+        padding-top: 1rem;
+    }
+    h1
+    {
+        color: rgba(173, 55, 12, 0.781);
+        font-size: 1.5rem;
+        margin-right: 2rem;
+    }
+    ul
+    {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        width: 18rem;
+    }
+    li a
+    {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-style: oblique;
+        font-size: 0.7rem;
+        padding-left: 1.5rem;
+    }
+
+    /* paramètres main */
+    main
+    {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* paramètres article */
+    h2
+    {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .desert
+    {
+        width: 100%;
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    article
+    {
+        width: 60%;
+        padding-bottom: 2rem;
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+    article p
+    {
+        text-align: justify;
+        width: 100%;
+    }
+
+    /* paramètres aside */
+    aside
+    {
+        display: flex;
+        flex-direction: column;
+        width: 12rem;
+        margin-top: 2rem;
+        margin-bottom: 4rem;
+        margin-right: 1rem;
+    }
+    .top
+    {
+        display: flex;
+        flex-direction: column;
+        width: 10rem;
+    }
+    .galerie
+    {
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        width: 13rem;
+    }
+    .img
+    {
+        height: 2rem;
+        width: 2rem;
+    }
+    h3
+    {
+        margin-left: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+    .bloc_img, ol
+    {
+        margin-top: 0.8rem;
+    }
+    ol
+    {
+        margin-left: 1rem;
+    }
+    .galerie hr, .top hr
+    {
+        width: 11.5rem;
+    }
+    /* paramètres galerie_hover */
+    .img:hover
+    {
+        transform: scale(6) translate(-0.5rem, 1.7rem);
+        transition: 0.7s ease-out;;
+    }
+
+    /* paramètres footer */
+    footer span
+    {
+        font-size: 1rem;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        margin: 1rem 1rem;
+    }
+}
